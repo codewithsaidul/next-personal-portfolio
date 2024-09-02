@@ -1,8 +1,13 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+
+import Intro from "@/component/Intro";
 
 export default function Home() {
   return (
-   <></>
+   <>
+    <div>
+        {/* Intro Component */}
+        <Intro />
+    </div>
+   </>
   );
 }
