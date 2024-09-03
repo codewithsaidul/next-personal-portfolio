@@ -37,7 +37,7 @@ const Intro = () => {
           </p>
 
           {/* <!-- CTA buttons --> */}
-          <div class="mt-6 flex flex-wrap gap-2">
+          {/* <div class="mt-6 flex flex-wrap gap-2">
             <a
               href="#"
               class="inline-flex items-center gap-x-2 rounded-lg border border-transparent bg-primary px-6 py-4 font-medium text-white transition hover:bg-blue-600 focus:outline-none focus:ring disabled:pointer-events-none disabled:opacity-50"
@@ -85,7 +85,7 @@ const Intro = () => {
                 Copied to clipboard
               </span>
             </button>
-          </div>
+          </div> */}
 
           {/* <!-- Social --> */}
           <div class="mt-8 flex flex-wrap items-center gap-2">
