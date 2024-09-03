@@ -19,7 +19,7 @@ const WorkExperience = () => {
               <p class="mt-1 text-sm font-medium text-muted dark:text-light/70">
                 2024 - Present
               </p>
-              <div class="flex flex-col items-center gap-3">
+              <div class="flex flex-col  gap-3">
                 <div class="">
                   <h6 class="text-base font-semibold text-dark dark:text-light/70">
                     Sylhet Polytechnic Instiute
@@ -45,7 +45,7 @@ const WorkExperience = () => {
               <p class="mt-1 text-sm font-medium text-muted dark:text-light/70">
                 2024 - Present
               </p>
-              <div class="flex flex-col items-center gap-3">
+              <div class="flex flex-col  gap-3">
                 <div class="">
                   <h6 class="text-base font-semibold text-dark dark:text-light/70">
                     Sylhet Polytechnic Instiute
