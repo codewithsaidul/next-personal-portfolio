@@ -4,27 +4,24 @@ import Skill from "@/component/Skill";
 import WorkExperience from "@/component/WorkExperience";
 // import ServicesData from "@/component/ServicesData";
 import HomeServices from "@/component/HomeServices";
-
+import Homecontact from "@/component/Homecontact";
 
 const Home = () => {
   return (
     <>
-      <div>
+      <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-6">
         {/* Intro Component */}
         <Intro />
-        <div>
-          <WorkExperience />
 
+        <div class="grid grid-cols-1 gap-4 lg:gap-6">
+          <WorkExperience />
           <Skill />
         </div>
 
         <RecentProject />
 
-        <div>
-          <div>
-              <HomeServices />
-          </div>
-        </div>
+        <HomeServices />
+        <Homecontact />
       </div>
     </>
   );

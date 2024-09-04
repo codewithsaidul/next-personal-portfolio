@@ -20,6 +20,8 @@ const Skill = () => {
         <h3 className="text-2xl font-semibold dark:text-light">My Expert Area</h3>
 
         <div className="mt-6 grid grid-cols-2 gap-4 md:grid-cols-3">
+
+
           <div className="text-center">
             <div className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
               <Image
@@ -50,7 +52,7 @@ const Skill = () => {
             </p>
           </div>
 
-          <div className="text-center">
+          {/* <div className="text-center">
             <div className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
               <Image
                 src={Bootstrap}
@@ -63,7 +65,7 @@ const Skill = () => {
             <p className="mt-1 text-base font-medium text-dark dark:text-light/70">
               Bootstrap
             </p>
-          </div>
+          </div> */}
 
           <div className="text-center">
             <div className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
@@ -95,7 +97,7 @@ const Skill = () => {
             </p>
           </div>
 
-          <div className="text-center">
+          {/* <div className="text-center">
             <div className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
               <Image
                 src={JS}
@@ -108,7 +110,7 @@ const Skill = () => {
             <p className="mt-1 text-base font-medium text-dark dark:text-light/70">
               Javascript
             </p>
-          </div>
+          </div> */}
 
           <div className="text-center">
             <div className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
@@ -140,7 +142,7 @@ const Skill = () => {
             </p>
           </div>
 
-          <div className="text-center">
+          {/* <div className="text-center">
             <div className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
               <Image
                 src={Framer}
@@ -153,9 +155,9 @@ const Skill = () => {
             <p className="mt-1 text-base font-medium text-dark dark:text-light/70">
               Framer Motion
             </p>
-          </div>
+          </div> */}
 
-          <div className="text-center">
+          {/* <div className="text-center">
             <div className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
               <Image
                 src={NodeJs}
@@ -198,7 +200,7 @@ const Skill = () => {
             <p className="mt-1 text-base font-medium text-dark dark:text-light/70">
               Express JS
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
