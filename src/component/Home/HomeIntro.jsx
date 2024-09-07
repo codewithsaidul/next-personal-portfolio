@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Profile from "@/assects/images/profile.jpg"
 
-const Intro = () => {
+const HomeIntro = () => {
   return (
     <div>
       <div className="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark">
@@ -148,4 +148,4 @@ const Intro = () => {
   );
 };
 
-export default Intro;
+export default HomeIntro;

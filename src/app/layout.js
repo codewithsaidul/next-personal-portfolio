@@ -1,8 +1,14 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-import Navbar from "@/component/Navbar";
-import Footer from "@/component/Footer";
+import Navbar from "@/component/SharedComponent/Navbar";
+import Footer from "@/component/SharedComponent/Footer";
+import Image from "next/image";
+
+import Gradient1 from "@/assects/images/gradient-1.png"
+import Gradient2 from "@/assects/images/gradient-2.png"
+import Object3D1 from "@/assects/images/object-3d-1.png"
+import Object3D2 from "@/assects/images/object-3d-2.png"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,11 +22,30 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.className}`}>
         <div className="mx-auto flex md:w-full max-w-screen-xl flex-col justify-between gap-4 p-4 lg:gap-6 lg:p-6">
-            <Navbar />
+          <Navbar />
 
-            {children}
+          {children}
 
-            <Footer />
+          <Footer />
+
+          {/* Shapes */}
+          <div class="shapes">
+            <div class="fixed -left-1/2 -top-1/2 -z-10 animate-spin-very-slow xl:-left-[20%] xl:-top-1/3">
+              <Image src={Gradient1} alt="Gradient"  width={1920} height={1080}/>
+            </div>
+
+            <div class="fixed -right-[50%] top-[10%] -z-10 animate-spin-very-slow xl:-right-[15%] xl:top-[10%]">
+              <Image src={Gradient2} alt="Gradient"  width={1920} height={1080}/>
+            </div>
+
+            <div class="move-with-cursor fixed left-[10%] top-[20%] -z-10">
+              <Image src={Object3D1} alt="Object 3D" width={150} height={150} />
+            </div>
+
+            <div class="move-with-cursor fixed bottom-[20%] right-[10%] -z-10">
+              <Image src={Object3D2} alt="Object 3D" width={150} height={150} />
+            </div>
+          </div>
         </div>
       </body>
     </html>

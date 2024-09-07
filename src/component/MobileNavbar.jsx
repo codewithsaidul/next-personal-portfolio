@@ -28,7 +28,7 @@ const MobileNavbar = () => {
           <ul className="mt-4 flex flex-1 flex-col gap-2">
             <li className="group/menu-item active">
               <a
-                href="index.html"
+                href="/"
                 className="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
               >
                 <svg

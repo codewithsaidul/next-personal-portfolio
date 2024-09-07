@@ -1,6 +1,6 @@
 "use client"
 
-import ServicesData from "./ServicesData";
+import ServicesData from "@/component/data/ServicesData";
 
 const HomeServices = () => {
   return (

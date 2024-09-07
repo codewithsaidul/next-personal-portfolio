@@ -1,17 +1,17 @@
-import Intro from "@/component/Intro";
-import RecentProject from "@/component/RecentProject";
-import Skill from "@/component/Skill";
-import WorkExperience from "@/component/WorkExperience";
-// import ServicesData from "@/component/ServicesData";
-import HomeServices from "@/component/HomeServices";
-import Homecontact from "@/component/Homecontact";
+import Homecontact from "@/component/Home/Homecontact";
+import HomeIntro from "@/component/Home/HomeIntro";
+import HomeServices from "@/component/Home/HomeServices";
+import RecentProject from "@/component/Home/RecentProject";
+import Skill from "@/component/Home/Skill";
+import WorkExperience from "@/component/Home/WorkExperience";
+
 
 const Home = () => {
   return (
     <>
       <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-6">
         {/* Intro Component */}
-        <Intro />
+        <HomeIntro />
 
         <div class="grid grid-cols-1 gap-4 lg:gap-6">
           <WorkExperience />
